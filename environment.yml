@@ -1,0 +1,24 @@
+# conda env create --file environment.yml
+name: eda_personal_projects
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - fs
+  - jupyter
+  - jupyterlab
+  - pathlib
+  - seaborn
+  - statsmodels
+  - scipy
+  - pandas
+  - numpy
+  - matplotlib
+  - pip
+  - sklearn
+  - pyprojroot
+  - python=3.7
+  - pip:
+    - pyhere
+    
