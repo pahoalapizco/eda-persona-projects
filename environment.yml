@@ -16,9 +16,11 @@ dependencies:
   - numpy
   - matplotlib
   - pip
-  - sklearn
   - pyprojroot
   - python=3.7
+  - missingno
+  - upsetplot
   - pip:
     - pyhere
+    - pyjanitor==0.22.0
     
